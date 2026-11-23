@@ -1,0 +1,17 @@
+.header-img {
+  width: 100%;    /* 横幅いっぱいに広げる */
+  height: auto;   /* 縦横比を崩さない */
+  display: block; /* 画像の下にできる謎の隙間を消す */
+}
+.image-container {
+  position: fixed; /* 画面に固定する */
+  bottom: 0;       /* 画面の一番下に配置 */
+  left: 0;         /* 左端に合わせる */
+  z-index: 100;    
+  display:flex;
+}
+.image-container img {
+  width:20px;
+  height:20px;
+  vertical-align: bottom;
+}
