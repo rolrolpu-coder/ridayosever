@@ -6,6 +6,7 @@
 .image-container {
   position: fixed; /* 画面に固定する */
   bottom: 0;       /* 画面の一番下に配置 */
+  left: 50%;     
   z-index: 100;    
   display:flex;
 }
