@@ -6,12 +6,13 @@
 .image-container {
   position: fixed; /* 画面に固定する */
   bottom: 0;       /* 画面の一番下に配置 */
-  left: 50%;     
+  left: 50%; 
+  transform: translateX(-50%); /* 左右中央に配置 */    
   z-index: 100;    
   display:flex;
 }
 .image-container img {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 100px;
   vertical-align: bottom;
 }
