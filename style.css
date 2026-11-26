@@ -12,7 +12,12 @@
   display:flex;
 }
 .image-container img {
-  width: 80px;
-  height: 100px;
+  width: 100px;
+  height: 150px;
   vertical-align: bottom;
+}
+.title {
+  font-size:large;
+  text-align:center;
+  background-color:rgba(87, 252, 255, 0.349);
 }
