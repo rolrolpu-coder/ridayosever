@@ -1,3 +1,16 @@
+body {
+  background-color: hsl(0, 0%, 83%); /* 背景色を薄いグレーに設定 */
+  margin: 0;
+  padding: 0;
+}
+p {
+  color:  rgb(0, 0, 0);
+  font-weight: bold;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
 .header-img {
   width: 100%;    /* 横幅いっぱいに広げる */
   height: auto;   /* 縦横比を崩さない */
